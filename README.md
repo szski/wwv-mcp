@@ -101,7 +101,7 @@ Add to your `~/.claude/settings.json`:
       "command": "node",
       "args": ["/absolute/path/to/wwv-mcp/dist/index.js"],
       "env": {
-        "WWV_BASE_URL": "https://oracle.internal",
+        "WWV_BASE_URL": "https://your-wwv-host.example",
         "WWV_ENGINE_URL": "http://localhost:5001",
         "NODE_EXTRA_CA_CERTS": "/Users/you/Library/Application Support/mkcert/rootCA.pem"
       }
